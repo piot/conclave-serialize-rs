@@ -1,0 +1,14 @@
+[package]
+name = "conclave-serialize"
+version = "0.0.1"
+edition = "2021"
+license = "MIT"
+description = "serialization for the conclave protocol"
+repository = "https://github.com/piot/conclave-serialize-rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+byteorder = "1.5.0"
+conclave-room-serialize = "0.0.2-pre02"
+conclave-types = "0.0.1"
